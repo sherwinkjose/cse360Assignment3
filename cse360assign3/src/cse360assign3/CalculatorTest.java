@@ -20,8 +20,7 @@ public class CalculatorTest {
 	public void addTest() 
 	{
 		Calculator addTest = new Calculator();
-		int add = addTest.add(5);
-		assertEquals(5, add);
+		fail("Not yet implemented");
 		
 	}
 	
@@ -29,8 +28,8 @@ public class CalculatorTest {
 	public void subrtractTest() 
 	{
 		Calculator subTest = new Calculator();
-		int sub = subTest.subtract(5);
-		assertEquals(-5, sub);
+		fail("Not yet implemented");
+
 		
 	}
 	
@@ -38,8 +37,8 @@ public class CalculatorTest {
 	public void multiplyTest() 
 	{
 		Calculator mulTest = new Calculator();
-		int mul = mulTest.multiply(5);
-		assertEquals(0, mul);
+		fail("Not yet implemented");
+
 		
 	}
 	
@@ -47,17 +46,16 @@ public class CalculatorTest {
 	public void divideTest() 
 	{
 		Calculator divTest = new Calculator();
-		int div = divTest.divide(5);
-		assertEquals(0, div);
-		
+		fail("Not yet implemented");
+
 	}
 	
 	@Test
 	public void historyTest() 
 	{
 		Calculator historyTest = new Calculator();
-		String getHis = historyTest.getHistory();
-		assertEquals("", getHis);
+		fail("Not yet implemented");
+
 		
 	}
 	

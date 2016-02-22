@@ -8,45 +8,35 @@ package cse360assign3;
 
 public class Calculator {
 
-	private int total; 
+	private int total;
 	
-	public Calculator () {
+	public Calculator () 
+	{
 		total = 0;  // not needed - included for clarity
 	}
 	
-	public int getTotal () // calculates the total 
-	{ 
-		return total;
-	}
-	
-	public int add (int value) // adds the value 
-	{ 
-		total = total + value;
-		return total;
-	}
-	
-	public int subtract (int value) // subtracts the value
-	{ 
-		total = total - value;
-		return total;
-	}
-	
-	public int multiply (int value) // multiplies the value
+	public int getTotal () // calculates the total
 	{
-		total = total * total * value;
-		return total;
+		return 0;
 	}
 	
-	public int divide (int value) // divides the value
-	{ 
-		if (value == 0)
-		{
-			return 0;
-		}else
-		{
-			total = total / value;
-			return total;
-		}
+	public void add (int value) // adds the value to the total
+	{
+		
+	}
+	
+	public void subtract (int value) // subtracts the value from the total
+	{
+		
+	}
+	
+	public void multiply (int value) // multiplies the value to the total
+	{
+		
+	}
+	
+	public void divide (int value)  // divides the value from the total 
+	{
 		
 	}
 	
