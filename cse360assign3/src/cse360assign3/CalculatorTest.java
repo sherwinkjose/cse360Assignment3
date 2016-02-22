@@ -65,7 +65,7 @@ public class CalculatorTest {
 	public void testCalculator() 
 	{
 		Calculator calcTest = new Calculator();
-		
+		assertNotNull(calcTest);
 		
 	}
 
